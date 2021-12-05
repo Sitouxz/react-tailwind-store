@@ -1,10 +1,6 @@
 import React, { useEffect } from "react";
 import Dropdown from "./Dropdown";
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-}
-
 function Header() {
     useEffect(() => {
         const btn = document.querySelector("button.mobile-menu-button");
